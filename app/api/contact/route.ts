@@ -31,7 +31,6 @@ export async function POST(req: Request) {
         <ul>
           <li><strong>Nom :</strong> ${escapeHtml(nom)}</li>
           <li><strong>Email :</strong> ${escapeHtml(email)}</li>
-          <li><strong>Téléphone :</strong> ${escapeHtml(telephone || "")}</li>
         </ul>
         <p><strong>Message :</strong></p>
         <p>${escapeHtml(message).replace(/\n/g, "<br/>")}</p>
