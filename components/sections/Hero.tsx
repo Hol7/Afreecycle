@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="grid justify-center text-center">
             <LottiePlayer
               animationData={impactAnimation}
-              className=" w-[340px] h-[380px] md:w-[720px] md:h-[720px]"
+              className=" w-[300px] h-[360px] md:w-[720px] md:h-[720px]"
             />
             {/* <span className="sm:hidden flex  text-center text-green  font-semibold">Cycle Énergie 🌱⚡</span> */}
           </div>
