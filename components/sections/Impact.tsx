@@ -1,7 +1,6 @@
-import LottiePlayer from "@/components/LottiePlayer"
-import impactAnimation from "@/public/lottie/ecology.json"
-import ImpactItem from "../ImpactItem"
-
+import LottiePlayer from "@/components/LottiePlayer";
+import impactAnimation from "@/public/lottie/ecology.json";
+import ImpactItem from "../ImpactItem";
 
 export default function Impact() {
   return (
@@ -25,8 +24,8 @@ export default function Impact() {
             </h2>
 
             <p className="mt-4 md:mt-6 text-green-900/70 text-base md:text-lg">
-              Nous réduisons les déchets, produisons de l’énergie verte
-              et soutenons une économie circulaire locale.
+              Nous réduisons les déchets, produisons de l’énergie verte et
+              soutenons une économie circulaire locale.
             </p>
 
             <div
@@ -56,8 +55,6 @@ export default function Impact() {
     </section>
   );
 }
-
-
 
 // import Container from "@/components/ui/Container";
 

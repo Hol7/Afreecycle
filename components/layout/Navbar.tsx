@@ -10,7 +10,7 @@ export default function Navbar() {
         <nav className="hidden md:flex gap-8 text-sm">
           <a href="#solutions">Solutions</a>
           <a href="#process">Fonctionnement</a>
-          <a href="#Impact">Impact</a>
+          <a href="#impact">Impact</a>
         </nav>
 
         <a href="#contact" className="bg-energy text-whiteSoft px-5 py-2 rounded-xl">

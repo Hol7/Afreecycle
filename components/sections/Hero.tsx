@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import { motion } from "framer-motion";
-import LottiePlayer from "@/components/LottiePlayer"
-import impactAnimation from "@/public/lottie/SaveEnergy.json"
+import LottiePlayer from "@/components/LottiePlayer";
+import impactAnimation from "@/public/lottie/SaveEnergy.json";
 
 export default function Hero() {
   return (
@@ -25,27 +25,24 @@ export default function Hero() {
 
           <div className="flex gap-4">
             <button className="bg-green text-white px-6 py-3 rounded-2xl  cursor-pointer hover:shadow duration-300 ease-in ...">
-            
-               <a href="#solutions">Découvrir nos solutions</a>
+              <a href="#solutions">Découvrir nos solutions</a>
             </button>
             <button className="border border-green text-green px-6 py-3 rounded-2xl">
-                <a href="#contact">   Nous contacter</a>
-           
+              <a href="#contact"> Nous contacter</a>
             </button>
           </div>
         </motion.div>
 
         <div className="h-[420px] rounded-2xl  flex items-center justify-center">
           {/* visuel animé à venir */}
-            {/* Lottie */}
-        <div className="grid justify-center text-center">
-          <LottiePlayer
-            animationData={impactAnimation}
-            className="sm: md:w-[720px] md:h-[720px]"
-          />
-        <span className="sm:hidden flex  text-center text-green  font-semibold">Cycle Énergie 🌱⚡</span>
-        </div>
-        
+          {/* Lottie */}
+          <div className="grid justify-center text-center">
+            <LottiePlayer
+              animationData={impactAnimation}
+              className=" w-[340px] h-[380px] md:w-[720px] md:h-[720px]"
+            />
+            {/* <span className="sm:hidden flex  text-center text-green  font-semibold">Cycle Énergie 🌱⚡</span> */}
+          </div>
         </div>
       </div>
     </section>
