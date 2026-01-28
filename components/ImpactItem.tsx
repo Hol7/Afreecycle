@@ -7,7 +7,7 @@ export default function ImpactItem({
 }) {
   return (
     <div>
-      <div className="text-3xl font-bold text-[var(--green)]">
+      <div className="text-3xl font-bold text-green">
         {value}
       </div>
       <div className="text-green-900/60 text-sm">

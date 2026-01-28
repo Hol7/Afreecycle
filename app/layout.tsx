@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Sora, Manrope } from "next/font/google";
 import "./globals.css";
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 // import { sora, manrope } from "./fonts";
 // import { sora ,manrope } from "./fonts";
 
@@ -47,7 +49,9 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+          <ToastContainer position="top-right" autoClose={4000} />
         <Footer />
+        
       </body>
     </html>
     // <html lang="en">
